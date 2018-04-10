@@ -241,7 +241,7 @@
     self.datePicker.maximumDate = [formatter dateFromString:maxDateString];
   }
   
-  @Try{
+  @try{
 self.datePicker.date = [formatter dateFromString:dateString];
 }
 @catch (NSException *exception) {
